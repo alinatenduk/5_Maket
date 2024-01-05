@@ -1,0 +1,330 @@
+/*price-slider*/
+#carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 200px; 
+    display: inline-block;
+    width: 6px !important; 
+    height: 6px !important; 
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important;
+    cursor: pointer;
+}
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+}
+.price-slider {
+    position: relative;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.fon {
+    width: 100%;
+    margin-top: -60px;
+}
+.title_block_price {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+}
+.detalis_p_1_price{
+    @include blue_title;
+}
+.detalis_title_price{
+    font-size: 30px;
+    font-weight: bold;
+}
+.slider_line{
+    margin-top: -10px
+}
+.container_price {
+    position: absolute;
+    max-width: 1170px;
+    width: 100%;
+    top: 140px;
+    left: 49%;
+    transform: translateX(-50%);
+    margin: 0 auto; /* Center the container horizontally */
+}
+.img_avatar{
+    position: relative;
+    margin-left: -470px;
+}
+.title_name {
+    margin-left: -300px;
+    margin-top: -50px;
+    color: #f1f1f1;
+}
+.text_person {
+    margin-left: -200px;
+    margin-top: -15px;
+    color: #f1f1f1;
+}
+.p_1{
+    font-style: italic;
+    font-size: 22px;
+}
+.prise_bloc{
+    text-align: center;
+    width: 100%;
+}
+.title_price{
+    color: #f1f1f1;
+}
+.slider {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+    max-width: 1170px;
+    margin: 0 auto; /* Center the slider within its container */
+    text-align: center;
+}
+.col {
+    width: 30%; /* Adjust as needed */
+    margin: 10px; /* Adjust as needed */
+}
+.p_1{
+    color: #f1f1f1;
+    text-align: left;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+/*price-slider*/
+.title_block_price {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -25px;
+}
+.detalis_p_1_price{
+    font-size: 14px;
+    @include blue_title;
+}
+.detalis_title_price{
+    font-size: 28px;
+    font-weight: bold;
+}
+.container_price {
+    position: absolute;
+    max-width: 900px;
+    width: 100%;
+    top: 140px;
+    left: 49%;
+    transform: translateX(-50%);
+    margin: 0 auto; /* Center the container horizontally */
+}
+.carousel-inner{
+    margin-top: -100px;
+}
+.img_avatar{
+    position: relative;
+    width: 50px;
+    margin-left: -340px;
+}
+.title_name {
+    margin-left: -200px;
+    margin-top: -50px;
+    color: #f1f1f1;
+    font-size: 12px;
+}
+.text_person {
+    margin-left: -90px;
+    margin-top: -15px;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.p_1{
+    font-style: italic;
+    font-size: 17px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    /*price-slider*/
+    .title_block_price {
+        top: -25px;
+    }
+    .detalis_p_1_price{
+        font-size: 12px;
+        @include blue_title;
+    }
+    .detalis_title_price{
+        font-size: 24px;
+        margin-top: -10px;
+    }
+    .slider_line{
+        margin-top: -10px;
+    }
+    .container_price {
+        position: absolute;
+        max-width: 750px;
+    }
+    .carousel-inner{
+        margin-top: -140px;
+    }
+    .img_avatar{
+        position: relative;
+        width: 50px;
+        margin-left: -270px;
+    }
+    .title_name {
+        margin-left: -120px;
+        margin-top: -50px;
+        color: #f1f1f1;
+        font-size: 12px;
+    }
+    .text_person {
+        margin-left: -20px;
+        margin-top: -15px;
+        color: #f1f1f1;
+        font-size: 14px;
+    }
+    .p_1{
+        font-style: italic;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 642px) and (max-width: 767px) {
+    /*price-slider*/
+    .fon{
+        height: 400px;
+    }
+    .title_block_price {
+        top: -25px;
+    }
+    .detalis_title_price{
+        font-size: 22px;
+        margin-top: -10px;
+    }
+    .slider_line{
+        margin-top: -25px;
+    }
+    .container_price {
+        position: absolute;
+        max-width: 600px;
+    }
+    .carousel-inner{
+        margin-top: -150px;
+    }
+    .img_avatar{
+        position: relative;
+        width: 30px;
+    }
+    .title_name {
+        margin-left: -320px;
+        margin-top: -30px;
+        color: #f1f1f1;
+        font-size: 12px;
+    }
+    .text_person {
+        margin-left: -250px;
+        margin-top: -10px;
+        color: #f1f1f1;
+        font-size: 14px;
+    }
+    .p_1{
+        font-style: italic;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 641px) {
+    /*price-slider*/
+    .fon{
+        height: 420px;
+    }
+    .title_block_price {
+        top: -25px;
+    }
+    
+    .detalis_title_price{
+        font-size: 22px;
+        margin-top: -10px;
+    }
+    .slider_line{
+        margin-top: -25px;
+    }
+    .container_price {
+        position: absolute;
+        max-width: 400px;
+    }
+    .carousel-inner{
+        margin-top: -150px;
+    }
+    .img_avatar{
+        position: relative;
+        width: 30px;
+        margin-left: -300px;
+    }
+    .title_name {
+        margin-left: -150px;
+        margin-top: -35px;
+        color: #f1f1f1;
+        font-size: 12px;
+    }
+    .text_person {
+        margin-left: -50px;
+        margin-top: -10px;
+        color: #f1f1f1;
+        font-size: 14px;
+    }
+    .p_1{
+        font-style: italic;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    /*price-slider*/
+    .fon{
+        height: 420px;
+    }
+    .title_block_price {
+        top: -25px;
+    }
+    
+    .detalis_title_price{
+        font-size: 22px;
+        margin-top: -10px;
+    }
+    .slider_line{
+        margin-top: -25px;
+    }
+    .container_price {
+        position: absolute;
+        max-width: 400px;
+    }
+    .carousel-inner{
+        margin-top: -150px;
+    }
+    .img_avatar{
+        position: relative;
+        width: 30px;
+        margin-left: -300px;
+    }
+    .title_name {
+        margin-left: -150px;
+        margin-top: -40px;
+        color: #f1f1f1;
+        font-size: 12px;
+    }
+    .text_person {
+        margin-left: -50px;
+        margin-top: -15px;
+        color: #f1f1f1;
+        font-size: 14px;
+    }
+    .p_1{
+        font-style: italic;
+        font-size: 14px;
+    }
+    .carousel-indicators{
+        li{
+            margin-top: -180px;
+        }
+    }
+}

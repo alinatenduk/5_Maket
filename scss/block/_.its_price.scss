@@ -1,0 +1,649 @@
+
+/*it`s price*/
+.its_price{
+    max-width: 1170px;
+    margin: 50px auto; /* Center the slider within its container */
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.prise_p1{
+    font-size: 16px;
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+}
+.price_tit{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container_its_price {
+    font-family: 'Source Sans 3', sans-serif;
+    max-width: 1170px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex; 
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    max-width: 1200px; /* Optionally set a maximum width to avoid it becoming too wide on large screens */
+    margin: 0 auto; /* Center the container horizontally */
+    /* Add any other styling you need */
+}
+.container_its_price .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 50px;
+    padding-top: 10px;
+    margin: 15px; /* Add margin for spacing between containers */
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+}
+.container_its_price .col_blue {
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+}
+.container_its_price .row.without_top_border .col {
+    border-top: none;
+}
+/*2*/
+.container_its_price_2 {
+    font-family: 'Source Sans 3', sans-serif;
+    max-width: 1170px;
+    text-align: center;
+    display: flex; 
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: -30px auto; /* Center the container horizontally */
+}
+.container_its_price_2 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 150px;
+    padding-top: 15px;
+    margin: 15px; /* Add margin for spacing between containers */
+    color: rgb(17, 17, 17);
+}
+.conteiner_b {
+    display: flex;
+    flex-direction: column; /* Display children elements in a column */
+    align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+    font-weight: bold;
+}
+.sign_a {
+    font-size: 26px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-left: 85px;
+}
+.money_a {
+    font-size: 60px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.sign {
+    font-size: 26px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-left: 70px;
+}
+.money {
+    font-size: 60px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 85px;
+    margin-top: -60px;
+}
+.p3 {
+    font-size: 17px;
+    color: #979797;
+    margin-top: -20px;
+}
+.container_its_price_2 .blue_blok{
+    background-color: rgb(0, 146, 231);
+}
+.white{
+    color: #ffffff;
+}
+/*3*/
+.container_its_price_3 {
+    font-family: 'Source Sans 3', sans-serif;
+    max-width: 1170px;
+    text-align: center;
+    display: flex; 
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: -30px auto; /* Center the container horizontally */
+    /* Add any other styling you need */
+}
+.container_its_price_3 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 270px;
+    padding: 25px;
+    margin: 15px; /* Add margin for spacing between containers */
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+}
+.blue{
+    color: rgb(0, 146, 231);
+}
+.container_3 .col.text_price p.blue {
+    display: inline; /* or display: inline-block; */
+    color: rgb(0, 146, 231);
+}
+.container_its_price_3 .col button {
+    margin-top: 30px;
+    border-color: rgb(177, 177, 177);
+    border-radius: 3;
+    width: 150px;
+    height: 45px;
+    color: rgb(0, 146, 231);
+}
+.container_its_price_3 .col .btn_b{
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 146, 231);
+}
+
+
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+    .container_its_price {
+        font-family: 'Source Sans 3', sans-serif;
+        max-width: 850px;
+        text-align: center;
+        display: flex; 
+        width: 100%; /* You can set this to a specific value like pixels or percentage */
+        margin: 0 auto; /* Center the container horizontally */
+    }
+    .container_its_price .col {
+        border: 1px solid #d3d3d3; /* Set the color and style of the line */
+        height: 45px;
+        padding-top: 10px;
+        margin: 15px; /* Add margin for spacing between containers */
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(17, 17, 17);
+    }
+    .container_its_price .col_blue {
+        color: rgb(0, 146, 231);
+        font-weight: bold;
+    }
+    .container_its_price .row.without_top_border .col {
+        border-top: none;
+    }
+    /*2*/
+    .container_its_price_2 {
+        font-family: 'Source Sans 3', sans-serif;
+        max-width: 850px;
+        text-align: center;
+        display: flex; 
+        width: 100%; /* You can set this to a specific value like pixels or percentage */
+        margin: -30px auto; /* Center the container horizontally */
+    }
+    .container_its_price_2 .col {
+        border: 1px solid #d3d3d3; /* Set the color and style of the line */
+        height: 150px;
+        padding-top: 15px;
+        margin: 15px; /* Add margin for spacing between containers */
+        color: rgb(17, 17, 17);
+    }
+    .conteiner_b {
+        display: flex;
+        flex-direction: column; /* Display children elements in a column */
+        align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+        font-weight: bold;
+    }
+    .sign_a {
+        font-size: 26px;
+        margin-top: 20px; /* Adjust the margin-top as needed */
+        margin-left: 45px;
+    }
+    .money_a {
+        font-size: 60px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-top: -60px;
+    }
+    .sign {
+        font-size: 26px;
+        margin-top: 20px; /* Adjust the margin-top as needed */
+        margin-left: 35px;
+    }
+    .money {
+        font-size: 60px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-top: -60px;
+    }
+    .p3 {
+        font-size: 17px;
+        color: #979797;
+        margin-top: -20px;
+    }
+    .container_its_price_2 .blue_blok{
+        background-color: rgb(0, 146, 231);
+    }
+    .white{
+        color: #ffffff;
+    }
+    /*3*/
+    .container_its_price_3 {
+        font-family: 'Source Sans 3', sans-serif;
+        max-width: 850px;
+        text-align: center;
+        display: flex; 
+        width: 100%; /* You can set this to a specific value like pixels or percentage */
+        margin-top: -30px auto;
+    }
+    .container_its_price_3 .col {
+        border: 1px solid #d3d3d3; /* Set the color and style of the line */
+        height: 290px;
+        padding: 15px;
+        margin: 15px; /* Add margin for spacing between containers */
+        color: rgb(112, 112, 112);
+        font-size: 18px;
+    }
+    .blue{
+        color: rgb(0, 146, 231);
+    }
+    .container_3 .col.text_price p.blue {
+        display: inline; /* or display: inline-block; */
+        color: rgb(0, 146, 231);
+    }
+    .container_its_price_3 .col button {
+        margin-top: 30px;
+        border-color: rgb(177, 177, 177);
+        border-radius: 3;
+        width: 150px;
+        height: 45px;
+        color: rgb(0, 146, 231);
+    }
+    .container_its_price_3 .col .btn_b{
+        margin-top: 30px;
+        border: none;
+        border-radius: 3px;
+        width: 150px;
+        height: 45px;
+        color: rgb(255, 255, 255);
+        background-color:rgb(0, 146, 231);
+    }
+    }
+    
+    @media screen and (min-width: 651px) and (max-width: 849px) {
+        .container_its_price {
+            font-family: 'Source Sans 3', sans-serif;
+            max-width: 650px;
+            text-align: center;
+            display: flex; 
+            width: 100%; /* You can set this to a specific value like pixels or percentage */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+        .container_its_price .col {
+            border: 1px solid #d3d3d3; /* Set the color and style of the line */
+            height: 45px;
+            padding-top: 10px;
+            margin: 15px; /* Add margin for spacing between containers */
+            font-weight: bold;
+            font-size: 18px;
+            color: rgb(17, 17, 17);
+        }
+        .container_its_price .col_blue {
+            color: rgb(0, 146, 231);
+            font-weight: bold;
+        }
+        .container_its_price .row.without_top_border .col {
+            border-top: none;
+        }
+        /*2*/
+    .container_its_price_2 {
+        font-family: 'Source Sans 3', sans-serif;
+        max-width: 650px;
+        text-align: center;
+        display: flex; 
+        width: 100%; /* You can set this to a specific value like pixels or percentage */
+        margin: -30px auto; /* Center the container horizontally */
+    }
+    .container_its_price_2 .col {
+        border: 1px solid #d3d3d3; /* Set the color and style of the line */
+        height: 150px;
+        padding-top: 15px;
+        margin: 15px; /* Add margin for spacing between containers */
+        color: rgb(17, 17, 17);
+    }
+    .conteiner_b {
+        display: flex;
+        flex-direction: column; /* Display children elements in a column */
+        align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+        font-weight: bold;
+    }
+    .sign_a {
+        font-size: 22px;
+        margin-top: 20px; /* Adjust the margin-top as needed */
+        margin-left: 25px;
+    }
+    .money_a {
+        font-size: 50px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 35px;
+        margin-top: -50px;
+    }
+    .sign {
+        font-size: 22px;
+        margin-top: 20px; /* Adjust the margin-top as needed */
+        margin-left: 20px;
+    }
+    .money {
+        font-size: 50px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    .p3 {
+        font-size: 15px;
+        color: #979797;
+        margin-top: -20px;
+    }
+    .container_its_price_2 .blue_blok{
+        background-color: rgb(0, 146, 231);
+    }
+    .white{
+        color: #ffffff;
+    }
+        /*3*/
+        .container_its_price_3 {
+            font-family: 'Source Sans 3', sans-serif;
+            max-width: 650px;
+            text-align: center;
+            display: flex; 
+            width: 100%; /* You can set this to a specific value like pixels or percentage */
+            margin-top: -30px auto;
+        }
+        .container_its_price_3 .col {
+            border: 1px solid #d3d3d3; /* Set the color and style of the line */
+            height: 250px;
+            padding: 10px;
+            margin: 15px; /* Add margin for spacing between containers */
+            color: rgb(112, 112, 112);
+            font-size: 14px;
+        }
+        .blue{
+            color: rgb(0, 146, 231);
+        }
+        .container_3 .col.text_price p.blue {
+            display: inline; /* or display: inline-block; */
+            color: rgb(0, 146, 231);
+        }
+        .container_its_price_3 .col button {
+            margin-top: 30px;
+            border-color: rgb(177, 177, 177);
+            border-radius: 3;
+            width: 100px;
+            height: 30px;
+            color: rgb(0, 146, 231);
+            font-size: 12px;
+        }
+        .container_its_price_3 .col .btn_b{
+            margin-top: 30px;
+            border: none;
+            border-radius: 3px;
+            width: 100px;
+            height: 30px;
+            color: rgb(255, 255, 255);
+            background-color:rgb(0, 146, 231);
+        }
+    }
+        @media screen and (min-width: 481px) and (max-width: 650px) {
+            .container_its_price {
+                font-family: 'Source Sans 3', sans-serif;
+                max-width: 480px;
+                text-align: center;
+                display: flex; 
+                width: 100%; /* You can set this to a specific value like pixels or percentage */
+                margin: 0 auto; /* Center the container horizontally */
+            }
+            .container_its_price .col {
+                border: 1px solid #d3d3d3; /* Set the color and style of the line */
+                height: 30px;
+                padding-top: 5px;
+                margin: 5px; /* Add margin for spacing between containers */
+                font-weight: bold;
+                font-size: 14px;
+                color: rgb(17, 17, 17);
+            }
+            .container_its_price .col_blue {
+                color: rgb(0, 146, 231);
+                font-weight: bold;
+            }
+            .container_its_price .row.without_top_border .col {
+                border-top: none;
+            }
+            /*2*/
+        .container_its_price_2 {
+            font-family: 'Source Sans 3', sans-serif;
+            max-width: 480px;
+            text-align: center;
+            display: flex; 
+            width: 100%; /* You can set this to a specific value like pixels or percentage */
+            margin: -10px auto; /* Center the container horizontally */
+        }
+        .container_its_price_2 .col {
+            border: 1px solid #d3d3d3; /* Set the color and style of the line */
+            height: 90px;
+            padding-top: 15px;
+            margin: 5px; /* Add margin for spacing between containers */
+            color: rgb(17, 17, 17);
+        }
+        .conteiner_b {
+            display: flex;
+            flex-direction: column; /* Display children elements in a column */
+            align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+            font-weight: bold;
+        }
+        .sign_a {
+            font-size: 16px;
+            margin-top: 5px; /* Adjust the margin-top as needed */
+            margin-left: 20px;
+        }
+        .money_a {
+            font-size: 30px;
+            color: black;
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-top: -40px;
+        }
+        .sign {
+            font-size: 16px;
+            margin-top: 5px; /* Adjust the margin-top as needed */
+            margin-left: 15px;
+        }
+        .money {
+            font-size: 30px;
+            color: black;
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-top: -40px;
+        }
+        .p3 {
+            font-size: 12px;
+            color: #979797;
+            margin-top: -20px;
+        }
+        .container_its_price_2 .blue_blok{
+            background-color: rgb(0, 146, 231);
+        }
+        .white{
+            color: #ffffff;
+        }
+            /*3*/
+            .container_its_price_3 {
+                font-family: 'Source Sans 3', sans-serif;
+                max-width: 480px;
+                text-align: center;
+                display: flex;
+                width: 100%;
+                margin-top: 0px; /* Adjust the margin-top value as needed */
+            }
+            .container_its_price_3 .col {
+                border: 1px solid #d3d3d3; /* Set the color and style of the line */
+                height: 220px;
+                padding: 5px;
+                margin: 5px; /* Add margin for spacing between containers */
+                color: rgb(112, 112, 112);
+                font-size: 12px;
+            }
+            .blue{
+                color: rgb(0, 146, 231);
+            }
+            .container_3 .col.text_price p.blue {
+                display: inline; /* or display: inline-block; */
+                color: rgb(0, 146, 231);
+            }
+            .container_its_price_3 .col button {
+                margin-top: 20px;
+                border-color: rgb(177, 177, 177);
+                border-radius: 3;
+                width: 80px;
+                height: 30px;
+                color: rgb(0, 146, 231);
+                font-size: 10px;
+            }
+            .container_its_price_3 .col .btn_b{
+                margin-top: 20px;
+                border: none;
+                border-radius: 3px;
+                width: 80px;
+                height: 30px;
+                color: rgb(255, 255, 255);
+                background-color:rgb(0, 146, 231);
+                font-size: 10px;
+            }
+    }
+    
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        .its_price{
+            max-width: 320px;
+            margin: 50px auto; /* Center the slider within its container */
+            text-align: center;
+            font-family: 'Source Sans 3', sans-serif;
+        }
+        .prise_p1{
+            font-size: 10px;
+        }
+        .price_tit{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .container_its_price {
+            max-width: 320px;
+        }
+        .container_its_price .col {
+            border: 1px solid #d3d3d3; /* Set the color and style of the line */
+            height: 20px;
+            padding-top: 3px;
+            margin: 3px; /* Add margin for spacing between containers */
+            font-weight: bold;
+            font-size: 9px;
+            color: rgb(17, 17, 17);
+        }
+        .container_its_price .col_blue {
+            color: rgb(0, 146, 231);
+            font-weight: bold;
+        }
+        .container_its_price .row.without_top_border .col {
+            border-top: none;
+        }
+        /*2*/
+    .container_its_price_2 {
+        max-width: 320px; 
+        width: 100%; /* You can set this to a specific value like pixels or percentage */
+        margin: -6px auto; /* Center the container horizontally */
+    }
+    .container_its_price_2 .col {
+        border: 1px solid #d3d3d3; /* Set the color and style of the line */
+        height: 90px;
+        padding-top: 15px;
+        margin: 3px; /* Add margin for spacing between containers */
+        color: rgb(17, 17, 17);
+    }
+    .sign_a {
+        font-size: 12px;
+        margin-top: 0px; /* Adjust the margin-top as needed */
+        margin-left: 10px;
+    }
+    .money_a {
+        font-size: 20px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 18px;
+        margin-top: -30px;
+    }
+    .sign {
+        font-size: 12px;
+        margin-top: 0px; 
+        margin-left: 5px;
+    }
+    .money {
+        font-size: 20px;
+        color: black;
+        margin-top: 10px;
+        margin-left: 13px;
+        margin-top: -30px;
+    }
+    .p3 {
+        font-size: 10px;
+        color: #979797;
+        margin-top: -5px;
+    }
+    .container_its_price_2 .blue_blok{
+        background-color: rgb(0, 146, 231);
+    }
+    .white{
+        color: #ffffff;
+    }
+        /*3*/
+        .container_its_price_3 {
+            font-family: 'Source Sans 3', sans-serif;
+            max-width: 320px;
+            text-align: center;
+            display: flex;
+            width: 100%;
+            margin-top: 0px; 
+        }
+        .container_its_price_3 .col {
+            border: 1px solid #d3d3d3; /* Set the color and style of the line */
+            height: 250px;
+            padding: 5px;
+            margin: 3px; /* Add margin for spacing between containers */
+            color: rgb(112, 112, 112);
+            font-size: 12px;
+        }
+        .blue{
+            color: rgb(0, 146, 231);
+        }
+        .container_3 .col.text_price p.blue {
+            display: inline; /* or display: inline-block; */
+            color: rgb(0, 146, 231);
+        }
+        .container_its_price_3 .col button {
+            margin-top: 20px;
+            padding: 5px;
+            border-color: rgb(177, 177, 177);
+            border-radius: 3;
+            width: 60px;
+            height: 25px;
+            color: rgb(0, 146, 231);
+            font-size: 9px;
+        }
+        .container_its_price_3 .col .btn_b{
+            margin-top: 20px;
+            border: none;
+            border-radius: 3px;
+            width: 60px;
+            height: 25px;
+            color: rgb(255, 255, 255);
+            background-color:rgb(0, 146, 231);
+            font-size: 9px;
+        }
+    }

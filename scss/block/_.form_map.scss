@@ -1,0 +1,235 @@
+
+/* form */
+.form_rec_fon {
+    background-color: #252525;
+    max-width: 950px;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: -130px;
+}
+.rec_form_all {
+    margin-top: 50px;
+}
+.rec_form,
+.rec_form_rig {
+    width: 300px; /* Set the width to 350px */
+    padding: 10px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-top: 20px; /* Adjust margin-top as needed */
+    border-radius: 5px;
+}
+.rec_form {
+    max-width: none; /* Remove the max-width for rec_form */
+    height: 50px;
+    margin-left: 50px;
+}
+.rec_form, .rec_form_rig{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0.0);
+}
+.rec_form_rig {
+    margin-top: 70px;
+    margin-left: -70px;
+    padding-left: 10px;
+    max-width: none; /* Remove the max-width for rec_form_rig */
+    height: 190px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.button_form{
+    background-color: rgb(0, 146, 231);
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px; 
+    margin-left: 70%;
+}
+/*map*/
+.map {
+    width: 100%;
+    height: 400px; /* Змініть висоту за потребою */
+    border: 0;
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1450px) {
+    /* form */
+    .form_rec_fon {
+        width: 650px;
+        height: 350px;
+        position: absolute;
+        margin-top: -130px;
+    }
+    .rec_form_all {
+        margin-top: 50px;
+    }
+    .rec_form,
+    .rec_form_rig {
+        width: 250px; /* Set the width to 350px */
+        padding: 10px; /* Add padding for better appearance */
+        box-sizing: border-box; /* Include padding and border in the total width */
+        margin-top: 20px; /* Adjust margin-top as needed */
+        border-radius: 5px;
+    }
+    .rec_form {
+        max-width: 230px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .rec_form, .rec_form_rig{
+        color: rgb(255, 255, 255);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: rgba(0, 142, 214, 0.0);
+    }
+    .rec_form_rig {
+        margin-top: 70px;
+        margin-left: -70px;
+        padding: 10px 10px 10px 0; /* Adjust the padding to create space on the left */
+        width: 230px;
+        height: 160px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .button_form{
+        height: 40px;
+        width: 140px;
+        font-size: 14px;
+        margin-left: 65%; 
+        margin-top: 20px; 
+    }
+    }
+    
+    @media screen and (min-width: 650px) and (max-width: 899px) {
+        .rec_fon{
+            width: 100%;
+            height: 850px;
+        }
+        /* form */
+        .form_rec_fon {
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: -170px;
+        }
+        .rec_form,
+        .rec_form_rig {
+            width: 250px; /* Set the width to 350px */
+            padding: 10px; /* Add padding for better appearance */
+            box-sizing: border-box; /* Include padding and border in the total width */
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .rec_form {
+            height: 40px;
+        }
+        .rec_form, .rec_form_rig{
+            color: rgb(255, 255, 255);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background-color: rgba(0, 142, 214, 0.0);
+            margin-left: -5px;
+            width: 250px;
+        }
+        .rec_form_rig {
+            padding: 10px 10px 10px 0; /* Adjust the padding to create space on the left */
+            height: 160px;
+            margin-top: 25px;   
+        }
+        .button_form{
+            height: 40px;
+            width: 140px;
+            font-size: 14px;
+            margin-left: 30%; 
+            margin-top: 20px; 
+        }
+    }
+    
+
+    @media screen and (min-width: 480px) and (max-width: 649px) {
+        
+        /* form */
+        .form_rec_fon {
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            margin-top: -150px;
+        }
+        .rec_form,
+        .rec_form_rig {
+            width: 250px; /* Set the width to 350px */
+            padding: 10px; /* Add padding for better appearance */
+            box-sizing: border-box; /* Include padding and border in the total width */
+            margin-top: 20px; /* Adjust margin-top as needed */
+            border-radius: 5px;
+        }
+        .rec_form {
+            height: 40px;
+        }
+        .rec_form, .rec_form_rig{
+            color: rgb(255, 255, 255);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background-color: rgba(0, 142, 214, 0.0);
+            margin-left: -5px;
+            width: 250px;
+        }
+        .rec_form_rig {
+            padding: 10px 10px 10px 0; /* Adjust the padding to create space on the left */
+            height: 160px;
+            margin-top: 25px;   
+        }
+        .button_form{
+            height: 40px;
+            width: 140px;
+            font-size: 14px;
+            margin-left: 30%; 
+            margin-top: 20px; 
+        }
+        }
+
+
+        @media screen and (min-width: 320px) and (max-width: 479px) {
+            /* form */
+            .form_rec_fon {
+                width: 280px;
+                height: 500px;
+                position: absolute;
+                margin-top: -180px;
+            }
+            .rec_form,
+            .rec_form_rig {
+                width: 250px; /* Set the width to 350px */
+                padding: 10px; /* Add padding for better appearance */
+                box-sizing: border-box; /* Include padding and border in the total width */
+                margin-top: 20px; /* Adjust margin-top as needed */
+                border-radius: 5px;
+            }
+            .rec_form {
+                height: 40px;
+            }
+            .rec_form, .rec_form_rig{
+                color: rgb(255, 255, 255);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                background-color: rgba(0, 142, 214, 0.0);
+                margin-left: -5px;
+                width: 200px;
+            }
+            .rec_form_rig {
+                height: 160px;
+                margin-top: 25px;   
+            }
+            .button_form{
+                height: 40px;
+                width: 120px;
+                font-size: 14px;
+                margin-left: 29%; 
+                margin-top: 5px; 
+            }
+}

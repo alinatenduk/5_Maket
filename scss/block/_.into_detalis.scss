@@ -1,0 +1,118 @@
+
+/*DIP INTO THE DETALIS*/
+.details_block{
+    display: flex;
+    max-width: 1170px;
+    margin: 60px auto;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.double_line{
+    margin-top: -10px;
+}
+.details_block_2{
+    display: flex;
+    max-width: 1170px;
+    margin: 60px auto;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.detalis_p_2{
+font-size: 16px;
+margin-top: 10px;
+}
+.text_blok{
+    margin-top: 80px;
+    text-align: left;
+}
+.list{
+    margin-top: 40px;
+}
+.blocks_right {
+    margin-top: -10px;
+    background-color: rgb(240, 239, 239);
+}
+.details_block_2 {
+    display: flex;
+    align-items: stretch; /* This property ensures that both columns have equal height */
+}
+.col {
+    flex: 1; /* This property makes both columns flexible and have equal width */
+}
+.text_blok_right {
+    text-align: left;
+    margin-top: 100px;
+}
+/* Reset default margin/padding for the container */
+.image-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Optional: Add margin between image-text pairs */
+}
+/* Optional: Adjust styles for images */
+.image-text-container img {
+    max-width: 100px; /* Set a maximum width for the images if needed */
+    margin-right: 10px; /* Optional: Add space between image and text */
+}
+/* Optional: Adjust styles for text */
+.image-text-container p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+.text_right {
+    color: black;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+/*DIP INTO THE DETALIS*/
+.double_line{
+    margin-top: -10px;
+}
+.details_block_2{
+    display: flex;
+    max-width: 800px;
+    margin: 60px auto;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.list{
+    margin-top: 20px;
+}
+.blocks_right {
+    margin-top: -10px;
+    background-color: rgb(240, 239, 239);
+}
+.details_block_2 {
+    display: flex;
+    align-items: stretch; /* This property ensures that both columns have equal height */
+}
+.col {
+    flex: 1; /* This property makes both columns flexible and have equal width */
+}
+.text_blok_right {
+    margin-top: 100px;
+}
+/* Reset default margin/padding for the container */
+.image-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Optional: Add margin between image-text pairs */
+}
+/* Optional: Adjust styles for images */
+.image-text-container img {
+    max-width: 100px; /* Set a maximum width for the images if needed */
+    margin-right: 10px; /* Optional: Add space between image and text */
+}
+/* Optional: Adjust styles for text */
+.image-text-container p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+.text_right {
+    color: black;
+    font-size: 16px;
+}
+.img2{
+    max-width: 100%;
+    margin-top: 100px;
+}
+}

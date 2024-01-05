@@ -1,0 +1,2390 @@
+@charset "UTF-8";
+/*banner*/
+.banner {
+  max-width: 1170px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px; /* Adjust the gap as needed */
+}
+
+.text_banner {
+  text-align: left;
+  margin-left: -50px;
+  font-family: "Source Sans 3", sans-serif;
+}
+.text_banner .p_1 {
+  font-size: 16px;
+  color: rgb(0, 146, 231);
+  margin-top: -50px;
+}
+.text_banner .title {
+  color: white;
+  font-size: 48px;
+  line-height: 50px;
+}
+.text_banner .p_2 {
+  color: rgb(109, 109, 109);
+  font-size: 18px;
+}
+.text_banner .button_1 {
+  background-color: rgb(0, 146, 231);
+  border: none;
+  height: 45px;
+  width: 140px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+}
+.text_banner .button_2 {
+  height: 45px;
+  width: 140px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(253, 253, 253);
+  background-color: rgba(0, 142, 214, 0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.banner .col {
+  display: flex;
+  align-items: center;
+}
+
+.banner .col .photo_tel {
+  width: 100%; /* Make the image take the full width of its container */
+  margin-left: 70px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+  /*banner*/
+  .banner {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px; /* Adjust the gap as needed */
+  }
+  .text_banner {
+    margin-left: 10px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .text_banner .p_1 {
+    font-size: 14px;
+    color: rgb(0, 146, 231);
+    margin-top: -65px;
+  }
+  .text_banner .title {
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .text_banner .p_2 {
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+  }
+  .text_banner .button_1, .text_banner .button_2 {
+    height: 40px;
+    width: 115px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .banner .col {
+    display: flex;
+    align-items: center;
+  }
+  .banner .col .photo_tel {
+    width: 100%; /* Make the image take the full width of its container */
+    margin-left: 30px;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 850px) {
+  .bg {
+    height: 400px;
+  }
+  /*banner*/
+  .banner {
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px; /* Adjust the gap as needed */
+  }
+  .text_banner {
+    margin-left: 15px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .text_banner .p_1 {
+    font-size: 12px;
+    color: rgb(0, 146, 231);
+    margin-top: -65px;
+  }
+  .text_banner .title {
+    color: white;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .text_banner .p_2 {
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+  }
+  .text_banner .button_1 {
+    height: 35px;
+    width: 105px;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-top: 15px;
+  }
+  .text_banner .button_2 {
+    height: 35px;
+    width: 105px;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  .banner .col {
+    display: flex;
+    align-items: center;
+  }
+  .banner .col .photo_tel {
+    width: 100%; /* Make the image take the full width of its container */
+    margin-left: -30px;
+    width: 270px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 669px) {
+  .bg {
+    height: 315px;
+  }
+  /*banner*/
+  .banner {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px; /* Adjust the gap as needed */
+  }
+  .text_banner {
+    margin-left: 10px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .text_banner .p_1 {
+    font-size: 10px;
+    color: rgb(0, 146, 231);
+    margin-top: -65px;
+  }
+  .text_banner .title {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .text_banner .p_2 {
+    color: rgb(109, 109, 109);
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .text_banner .button-container {
+    display: flex; /* Use flexbox */
+  }
+  .text_banner .button_1 {
+    height: 20px;
+    width: 85px;
+    border-radius: 3px;
+    font-size: 9px;
+    margin-top: 5px;
+  }
+  .text_banner .button_2 {
+    height: 20px;
+    width: 85px;
+    border-radius: 3px;
+    font-size: 9px;
+    margin-top: 5px; /* Set the same margin-top value as button_1 */
+  }
+  .banner .col {
+    display: flex;
+    align-items: center;
+  }
+  .banner .col .photo_tel {
+    width: 100%; /* Make the image take the full width of its container */
+    margin-left: -60px;
+    width: 190px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .bg {
+    height: 350px;
+  }
+  /* banner */
+  .banner {
+    max-width: 290px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px; /* Adjust the gap as needed */
+  }
+  .text_banner {
+    margin-left: -10px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .text_banner .p_1 {
+    font-size: 10px;
+    color: rgb(0, 146, 231);
+    margin-top: -65px;
+  }
+  .text_banner .title {
+    color: white;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .text_banner .p_2 {
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .text_banner .button-container {
+    display: flex;
+  }
+  .text_banner .button_1,
+  .text_banner .button_2 {
+    height: 30px;
+    width: 95px;
+    border-radius: 3px;
+    font-size: 9px;
+    margin-top: 5px;
+  }
+  .banner .col {
+    display: flex;
+    align-items: center;
+  }
+  .banner .col .photo_tel {
+    display: none; /* Hide the phone image */
+  }
+  /* Adjust the margin-top value as needed */
+  #carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 50px; /* Adjust as needed */
+    display: inline-block;
+    width: 6px !important; /* Adjust width as needed */
+    height: 6px !important; /* Adjust height as needed */
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important; /* Adjusted to 20px */
+    cursor: pointer;
+  }
+  #carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+  }
+}
+/*-Product overview block*/
+.overview_block {
+  max-width: 1170px;
+  margin: 60px auto;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.blocks {
+  display: flex;
+}
+
+.overview_p_1, .detalis_p_1 {
+  font-size: 16px;
+  color: rgb(0, 146, 231);
+  font-weight: bold;
+}
+
+.title, .detalis_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title_block {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.tekst_block, .detalis_p_2 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: rgb(121, 121, 121);
+}
+
+.col {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.prise_bloc {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.picture_prise img {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .circle {
+    width: 70px;
+  }
+  .title_block {
+    font-size: 18px;
+  }
+  .tekst_block {
+    font-size: 16px;
+  }
+}
+/*price-slider*/
+#carouselExampleIndicators .carousel-indicators li {
+  position: relative;
+  top: 200px;
+  display: inline-block;
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 20px !important;
+  cursor: pointer;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+  background-color: #fff !important; /* Change to your active color */
+}
+
+.price-slider {
+  position: relative;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.fon {
+  width: 100%;
+  margin-top: -60px;
+}
+
+.title_block_price {
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+}
+
+.detalis_p_1_price {
+  font-size: 16px;
+  color: rgb(0, 146, 231);
+  font-weight: bold;
+}
+
+.detalis_title_price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.slider_line {
+  margin-top: -10px;
+}
+
+.container_price {
+  position: absolute;
+  max-width: 1170px;
+  width: 100%;
+  top: 140px;
+  left: 49%;
+  transform: translateX(-50%);
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.img_avatar {
+  position: relative;
+  margin-left: -470px;
+}
+
+.title_name {
+  margin-left: -300px;
+  margin-top: -50px;
+  color: #f1f1f1;
+}
+
+.text_person {
+  margin-left: -200px;
+  margin-top: -15px;
+  color: #f1f1f1;
+}
+
+.p_1 {
+  font-style: italic;
+  font-size: 22px;
+}
+
+.prise_bloc {
+  text-align: center;
+  width: 100%;
+}
+
+.title_price {
+  color: #f1f1f1;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center;
+  max-width: 1170px;
+  margin: 0 auto; /* Center the slider within its container */
+  text-align: center;
+}
+
+.col {
+  width: 30%; /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
+}
+
+.p_1 {
+  color: #f1f1f1;
+  text-align: left;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+  /*price-slider*/
+  .title_block_price {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -25px;
+  }
+  .detalis_p_1_price {
+    font-size: 14px;
+    font-size: 16px;
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+  }
+  .detalis_title_price {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .container_price {
+    position: absolute;
+    max-width: 900px;
+    width: 100%;
+    top: 140px;
+    left: 49%;
+    transform: translateX(-50%);
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .carousel-inner {
+    margin-top: -100px;
+  }
+  .img_avatar {
+    position: relative;
+    width: 50px;
+    margin-left: -340px;
+  }
+  .title_name {
+    margin-left: -200px;
+    margin-top: -50px;
+    color: #f1f1f1;
+    font-size: 12px;
+  }
+  .text_person {
+    margin-left: -90px;
+    margin-top: -15px;
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+  .p_1 {
+    font-style: italic;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 850px) {
+  /*price-slider*/
+  .title_block_price {
+    top: -25px;
+  }
+  .detalis_p_1_price {
+    font-size: 12px;
+    font-size: 16px;
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+  }
+  .detalis_title_price {
+    font-size: 24px;
+    margin-top: -10px;
+  }
+  .slider_line {
+    margin-top: -10px;
+  }
+  .container_price {
+    position: absolute;
+    max-width: 750px;
+  }
+  .carousel-inner {
+    margin-top: -140px;
+  }
+  .img_avatar {
+    position: relative;
+    width: 50px;
+    margin-left: -270px;
+  }
+  .title_name {
+    margin-left: -120px;
+    margin-top: -50px;
+    color: #f1f1f1;
+    font-size: 12px;
+  }
+  .text_person {
+    margin-left: -20px;
+    margin-top: -15px;
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+  .p_1 {
+    font-style: italic;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 642px) and (max-width: 767px) {
+  /*price-slider*/
+  .fon {
+    height: 400px;
+  }
+  .title_block_price {
+    top: -25px;
+  }
+  .detalis_title_price {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+  .slider_line {
+    margin-top: -25px;
+  }
+  .container_price {
+    position: absolute;
+    max-width: 600px;
+  }
+  .carousel-inner {
+    margin-top: -150px;
+  }
+  .img_avatar {
+    position: relative;
+    width: 30px;
+  }
+  .title_name {
+    margin-left: -320px;
+    margin-top: -30px;
+    color: #f1f1f1;
+    font-size: 12px;
+  }
+  .text_person {
+    margin-left: -250px;
+    margin-top: -10px;
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+  .p_1 {
+    font-style: italic;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 641px) {
+  /*price-slider*/
+  .fon {
+    height: 420px;
+  }
+  .title_block_price {
+    top: -25px;
+  }
+  .detalis_title_price {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+  .slider_line {
+    margin-top: -25px;
+  }
+  .container_price {
+    position: absolute;
+    max-width: 400px;
+  }
+  .carousel-inner {
+    margin-top: -150px;
+  }
+  .img_avatar {
+    position: relative;
+    width: 30px;
+    margin-left: -300px;
+  }
+  .title_name {
+    margin-left: -150px;
+    margin-top: -35px;
+    color: #f1f1f1;
+    font-size: 12px;
+  }
+  .text_person {
+    margin-left: -50px;
+    margin-top: -10px;
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+  .p_1 {
+    font-style: italic;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  /*price-slider*/
+  .fon {
+    height: 420px;
+  }
+  .title_block_price {
+    top: -25px;
+  }
+  .detalis_title_price {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+  .slider_line {
+    margin-top: -25px;
+  }
+  .container_price {
+    position: absolute;
+    max-width: 400px;
+  }
+  .carousel-inner {
+    margin-top: -150px;
+  }
+  .img_avatar {
+    position: relative;
+    width: 30px;
+    margin-left: -300px;
+  }
+  .title_name {
+    margin-left: -150px;
+    margin-top: -40px;
+    color: #f1f1f1;
+    font-size: 12px;
+  }
+  .text_person {
+    margin-left: -50px;
+    margin-top: -15px;
+    color: #f1f1f1;
+    font-size: 14px;
+  }
+  .p_1 {
+    font-style: italic;
+    font-size: 14px;
+  }
+  .carousel-indicators li {
+    margin-top: -180px;
+  }
+}
+/*DIP INTO THE DETALIS*/
+.details_block {
+  display: flex;
+  max-width: 1170px;
+  margin: 60px auto;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.double_line {
+  margin-top: -10px;
+}
+
+.details_block_2 {
+  display: flex;
+  max-width: 1170px;
+  margin: 60px auto;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.detalis_p_2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.text_blok {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.blocks_right {
+  margin-top: -10px;
+  background-color: rgb(240, 239, 239);
+}
+
+.details_block_2 {
+  display: flex;
+  align-items: stretch; /* This property ensures that both columns have equal height */
+}
+
+.col {
+  flex: 1; /* This property makes both columns flexible and have equal width */
+}
+
+.text_blok_right {
+  text-align: left;
+  margin-top: 100px;
+}
+
+/* Reset default margin/padding for the container */
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px; /* Optional: Add margin between image-text pairs */
+}
+
+/* Optional: Adjust styles for images */
+.image-text-container img {
+  max-width: 100px; /* Set a maximum width for the images if needed */
+  margin-right: 10px; /* Optional: Add space between image and text */
+}
+
+/* Optional: Adjust styles for text */
+.image-text-container p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.text_right {
+  color: black;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+  /*DIP INTO THE DETALIS*/
+  .double_line {
+    margin-top: -10px;
+  }
+  .details_block_2 {
+    display: flex;
+    max-width: 800px;
+    margin: 60px auto;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .list {
+    margin-top: 20px;
+  }
+  .blocks_right {
+    margin-top: -10px;
+    background-color: rgb(240, 239, 239);
+  }
+  .details_block_2 {
+    display: flex;
+    align-items: stretch; /* This property ensures that both columns have equal height */
+  }
+  .col {
+    flex: 1; /* This property makes both columns flexible and have equal width */
+  }
+  .text_blok_right {
+    margin-top: 100px;
+  }
+  /* Reset default margin/padding for the container */
+  .image-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Optional: Add margin between image-text pairs */
+  }
+  /* Optional: Adjust styles for images */
+  .image-text-container img {
+    max-width: 100px; /* Set a maximum width for the images if needed */
+    margin-right: 10px; /* Optional: Add space between image and text */
+  }
+  /* Optional: Adjust styles for text */
+  .image-text-container p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  .text_right {
+    color: black;
+    font-size: 16px;
+  }
+  .img2 {
+    max-width: 100%;
+    margin-top: 100px;
+  }
+}
+/*footer*/
+.footer_fon {
+  width: 100%;
+  height: 150px;
+  background-color: #1f1f1f;
+  font-family: "Source Sans 3";
+  margin-top: -10px;
+}
+
+.footer_pointer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_pointer_1 {
+  opacity: 0.1;
+}
+
+.footer_pointer img {
+  margin: 0 10px; /* Додайте власний відступ між зображеннями, якщо потрібно */
+  margin-top: 50px;
+}
+
+.text_footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* form */
+.form_rec_fon {
+  background-color: #252525;
+  max-width: 950px;
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-top: -130px;
+}
+
+.rec_form_all {
+  margin-top: 50px;
+}
+
+.rec_form,
+.rec_form_rig {
+  width: 300px; /* Set the width to 350px */
+  padding: 10px; /* Add padding for better appearance */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  margin-top: 20px; /* Adjust margin-top as needed */
+  border-radius: 5px;
+}
+
+.rec_form {
+  max-width: none; /* Remove the max-width for rec_form */
+  height: 50px;
+  margin-left: 50px;
+}
+
+.rec_form, .rec_form_rig {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 142, 214, 0);
+}
+
+.rec_form_rig {
+  margin-top: 70px;
+  margin-left: -70px;
+  padding-left: 10px;
+  max-width: none; /* Remove the max-width for rec_form_rig */
+  height: 190px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.button_form {
+  background-color: rgb(0, 146, 231);
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+  margin-left: 70%;
+}
+
+/*map*/
+.map {
+  width: 100%;
+  height: 400px; /* Змініть висоту за потребою */
+  border: 0;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1450px) {
+  /* form */
+  .form_rec_fon {
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    margin-top: -130px;
+  }
+  .rec_form_all {
+    margin-top: 50px;
+  }
+  .rec_form,
+  .rec_form_rig {
+    width: 250px; /* Set the width to 350px */
+    padding: 10px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-top: 20px; /* Adjust margin-top as needed */
+    border-radius: 5px;
+  }
+  .rec_form {
+    max-width: 230px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .rec_form, .rec_form_rig {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+  }
+  .rec_form_rig {
+    margin-top: 70px;
+    margin-left: -70px;
+    padding: 10px 10px 10px 0; /* Adjust the padding to create space on the left */
+    width: 230px;
+    height: 160px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .button_form {
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 65%;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 899px) {
+  .rec_fon {
+    width: 100%;
+    height: 850px;
+  }
+  /* form */
+  .form_rec_fon {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: -170px;
+  }
+  .rec_form,
+  .rec_form_rig {
+    width: 250px; /* Set the width to 350px */
+    padding: 10px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .rec_form {
+    height: 40px;
+  }
+  .rec_form, .rec_form_rig {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+    margin-left: -5px;
+    width: 250px;
+  }
+  .rec_form_rig {
+    padding: 10px 10px 10px 0; /* Adjust the padding to create space on the left */
+    height: 160px;
+    margin-top: 25px;
+  }
+  .button_form {
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 30%;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 649px) {
+  /* form */
+  .form_rec_fon {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    margin-top: -150px;
+  }
+  .rec_form,
+  .rec_form_rig {
+    width: 250px; /* Set the width to 350px */
+    padding: 10px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-top: 20px; /* Adjust margin-top as needed */
+    border-radius: 5px;
+  }
+  .rec_form {
+    height: 40px;
+  }
+  .rec_form, .rec_form_rig {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+    margin-left: -5px;
+    width: 250px;
+  }
+  .rec_form_rig {
+    padding: 10px 10px 10px 0; /* Adjust the padding to create space on the left */
+    height: 160px;
+    margin-top: 25px;
+  }
+  .button_form {
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 30%;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  /* form */
+  .form_rec_fon {
+    width: 280px;
+    height: 500px;
+    position: absolute;
+    margin-top: -180px;
+  }
+  .rec_form,
+  .rec_form_rig {
+    width: 250px; /* Set the width to 350px */
+    padding: 10px; /* Add padding for better appearance */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-top: 20px; /* Adjust margin-top as needed */
+    border-radius: 5px;
+  }
+  .rec_form {
+    height: 40px;
+  }
+  .rec_form, .rec_form_rig {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+    margin-left: -5px;
+    width: 200px;
+  }
+  .rec_form_rig {
+    height: 160px;
+    margin-top: 25px;
+  }
+  .button_form {
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+    margin-left: 29%;
+    margin-top: 5px;
+  }
+}
+/*it`s price*/
+.its_price {
+  max-width: 1170px;
+  margin: 50px auto; /* Center the slider within its container */
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.prise_p1 {
+  font-size: 16px;
+  color: rgb(0, 146, 231);
+  font-weight: bold;
+}
+
+.price_tit {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container_its_price {
+  font-family: "Source Sans 3", sans-serif;
+  max-width: 1170px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  width: 100%; /* You can set this to a specific value like pixels or percentage */
+  max-width: 1200px; /* Optionally set a maximum width to avoid it becoming too wide on large screens */
+  margin: 0 auto; /* Center the container horizontally */
+  /* Add any other styling you need */
+}
+
+.container_its_price .col {
+  border: 1px solid #d3d3d3; /* Set the color and style of the line */
+  height: 50px;
+  padding-top: 10px;
+  margin: 15px; /* Add margin for spacing between containers */
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(17, 17, 17);
+}
+
+.container_its_price .col_blue {
+  color: rgb(0, 146, 231);
+  font-weight: bold;
+}
+
+.container_its_price .row.without_top_border .col {
+  border-top: none;
+}
+
+/*2*/
+.container_its_price_2 {
+  font-family: "Source Sans 3", sans-serif;
+  max-width: 1170px;
+  text-align: center;
+  display: flex;
+  width: 100%; /* You can set this to a specific value like pixels or percentage */
+  margin: -30px auto; /* Center the container horizontally */
+}
+
+.container_its_price_2 .col {
+  border: 1px solid #d3d3d3; /* Set the color and style of the line */
+  height: 150px;
+  padding-top: 15px;
+  margin: 15px; /* Add margin for spacing between containers */
+  color: rgb(17, 17, 17);
+}
+
+.conteiner_b {
+  display: flex;
+  flex-direction: column; /* Display children elements in a column */
+  align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+  font-weight: bold;
+}
+
+.sign_a {
+  font-size: 26px;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  margin-left: 85px;
+}
+
+.money_a {
+  font-size: 60px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-top: -60px;
+}
+
+.sign {
+  font-size: 26px;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+  margin-left: 70px;
+}
+
+.money {
+  font-size: 60px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 85px;
+  margin-top: -60px;
+}
+
+.p3 {
+  font-size: 17px;
+  color: #979797;
+  margin-top: -20px;
+}
+
+.container_its_price_2 .blue_blok {
+  background-color: rgb(0, 146, 231);
+}
+
+.white {
+  color: #ffffff;
+}
+
+/*3*/
+.container_its_price_3 {
+  font-family: "Source Sans 3", sans-serif;
+  max-width: 1170px;
+  text-align: center;
+  display: flex;
+  width: 100%; /* You can set this to a specific value like pixels or percentage */
+  margin: -30px auto; /* Center the container horizontally */
+  /* Add any other styling you need */
+}
+
+.container_its_price_3 .col {
+  border: 1px solid #d3d3d3; /* Set the color and style of the line */
+  height: 270px;
+  padding: 25px;
+  margin: 15px; /* Add margin for spacing between containers */
+  color: rgb(112, 112, 112);
+  font-size: 18px;
+}
+
+.blue {
+  color: rgb(0, 146, 231);
+}
+
+.container_3 .col.text_price p.blue {
+  display: inline; /* or display: inline-block; */
+  color: rgb(0, 146, 231);
+}
+
+.container_its_price_3 .col button {
+  margin-top: 30px;
+  border-color: rgb(177, 177, 177);
+  border-radius: 3;
+  width: 150px;
+  height: 45px;
+  color: rgb(0, 146, 231);
+}
+
+.container_its_price_3 .col .btn_b {
+  margin-top: 30px;
+  border: none;
+  border-radius: 3px;
+  width: 150px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 146, 231);
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+  .container_its_price {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 850px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .container_its_price .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 45px;
+    padding-top: 10px;
+    margin: 15px; /* Add margin for spacing between containers */
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+  }
+  .container_its_price .col_blue {
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+  }
+  .container_its_price .row.without_top_border .col {
+    border-top: none;
+  }
+  /*2*/
+  .container_its_price_2 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 850px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: -30px auto; /* Center the container horizontally */
+  }
+  .container_its_price_2 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 150px;
+    padding-top: 15px;
+    margin: 15px; /* Add margin for spacing between containers */
+    color: rgb(17, 17, 17);
+  }
+  .conteiner_b {
+    display: flex;
+    flex-direction: column; /* Display children elements in a column */
+    align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+    font-weight: bold;
+  }
+  .sign_a {
+    font-size: 26px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-left: 45px;
+  }
+  .money_a {
+    font-size: 60px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-top: -60px;
+  }
+  .sign {
+    font-size: 26px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-left: 35px;
+  }
+  .money {
+    font-size: 60px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: -60px;
+  }
+  .p3 {
+    font-size: 17px;
+    color: #979797;
+    margin-top: -20px;
+  }
+  .container_its_price_2 .blue_blok {
+    background-color: rgb(0, 146, 231);
+  }
+  .white {
+    color: #ffffff;
+  }
+  /*3*/
+  .container_its_price_3 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 850px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin-top: -30px auto;
+  }
+  .container_its_price_3 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 290px;
+    padding: 15px;
+    margin: 15px; /* Add margin for spacing between containers */
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+  }
+  .blue {
+    color: rgb(0, 146, 231);
+  }
+  .container_3 .col.text_price p.blue {
+    display: inline; /* or display: inline-block; */
+    color: rgb(0, 146, 231);
+  }
+  .container_its_price_3 .col button {
+    margin-top: 30px;
+    border-color: rgb(177, 177, 177);
+    border-radius: 3;
+    width: 150px;
+    height: 45px;
+    color: rgb(0, 146, 231);
+  }
+  .container_its_price_3 .col .btn_b {
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 146, 231);
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 849px) {
+  .container_its_price {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 650px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .container_its_price .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 45px;
+    padding-top: 10px;
+    margin: 15px; /* Add margin for spacing between containers */
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+  }
+  .container_its_price .col_blue {
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+  }
+  .container_its_price .row.without_top_border .col {
+    border-top: none;
+  }
+  /*2*/
+  .container_its_price_2 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 650px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: -30px auto; /* Center the container horizontally */
+  }
+  .container_its_price_2 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 150px;
+    padding-top: 15px;
+    margin: 15px; /* Add margin for spacing between containers */
+    color: rgb(17, 17, 17);
+  }
+  .conteiner_b {
+    display: flex;
+    flex-direction: column; /* Display children elements in a column */
+    align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+    font-weight: bold;
+  }
+  .sign_a {
+    font-size: 22px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-left: 25px;
+  }
+  .money_a {
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-top: -50px;
+  }
+  .sign {
+    font-size: 22px;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    margin-left: 20px;
+  }
+  .money {
+    font-size: 50px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: -50px;
+  }
+  .p3 {
+    font-size: 15px;
+    color: #979797;
+    margin-top: -20px;
+  }
+  .container_its_price_2 .blue_blok {
+    background-color: rgb(0, 146, 231);
+  }
+  .white {
+    color: #ffffff;
+  }
+  /*3*/
+  .container_its_price_3 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 650px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin-top: -30px auto;
+  }
+  .container_its_price_3 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 250px;
+    padding: 10px;
+    margin: 15px; /* Add margin for spacing between containers */
+    color: rgb(112, 112, 112);
+    font-size: 14px;
+  }
+  .blue {
+    color: rgb(0, 146, 231);
+  }
+  .container_3 .col.text_price p.blue {
+    display: inline; /* or display: inline-block; */
+    color: rgb(0, 146, 231);
+  }
+  .container_its_price_3 .col button {
+    margin-top: 30px;
+    border-color: rgb(177, 177, 177);
+    border-radius: 3;
+    width: 100px;
+    height: 30px;
+    color: rgb(0, 146, 231);
+    font-size: 12px;
+  }
+  .container_its_price_3 .col .btn_b {
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 146, 231);
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 650px) {
+  .container_its_price {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 480px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .container_its_price .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 30px;
+    padding-top: 5px;
+    margin: 5px; /* Add margin for spacing between containers */
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(17, 17, 17);
+  }
+  .container_its_price .col_blue {
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+  }
+  .container_its_price .row.without_top_border .col {
+    border-top: none;
+  }
+  /*2*/
+  .container_its_price_2 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 480px;
+    text-align: center;
+    display: flex;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: -10px auto; /* Center the container horizontally */
+  }
+  .container_its_price_2 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 90px;
+    padding-top: 15px;
+    margin: 5px; /* Add margin for spacing between containers */
+    color: rgb(17, 17, 17);
+  }
+  .conteiner_b {
+    display: flex;
+    flex-direction: column; /* Display children elements in a column */
+    align-items: flex-start; /* Align elements at the start of the cross axis (top) */
+    font-weight: bold;
+  }
+  .sign_a {
+    font-size: 16px;
+    margin-top: 5px; /* Adjust the margin-top as needed */
+    margin-left: 20px;
+  }
+  .money_a {
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: -40px;
+  }
+  .sign {
+    font-size: 16px;
+    margin-top: 5px; /* Adjust the margin-top as needed */
+    margin-left: 15px;
+  }
+  .money {
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-top: -40px;
+  }
+  .p3 {
+    font-size: 12px;
+    color: #979797;
+    margin-top: -20px;
+  }
+  .container_its_price_2 .blue_blok {
+    background-color: rgb(0, 146, 231);
+  }
+  .white {
+    color: #ffffff;
+  }
+  /*3*/
+  .container_its_price_3 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 480px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin-top: 0px; /* Adjust the margin-top value as needed */
+  }
+  .container_its_price_3 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 220px;
+    padding: 5px;
+    margin: 5px; /* Add margin for spacing between containers */
+    color: rgb(112, 112, 112);
+    font-size: 12px;
+  }
+  .blue {
+    color: rgb(0, 146, 231);
+  }
+  .container_3 .col.text_price p.blue {
+    display: inline; /* or display: inline-block; */
+    color: rgb(0, 146, 231);
+  }
+  .container_its_price_3 .col button {
+    margin-top: 20px;
+    border-color: rgb(177, 177, 177);
+    border-radius: 3;
+    width: 80px;
+    height: 30px;
+    color: rgb(0, 146, 231);
+    font-size: 10px;
+  }
+  .container_its_price_3 .col .btn_b {
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 146, 231);
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .its_price {
+    max-width: 320px;
+    margin: 50px auto; /* Center the slider within its container */
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .prise_p1 {
+    font-size: 10px;
+  }
+  .price_tit {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .container_its_price {
+    max-width: 320px;
+  }
+  .container_its_price .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 20px;
+    padding-top: 3px;
+    margin: 3px; /* Add margin for spacing between containers */
+    font-weight: bold;
+    font-size: 9px;
+    color: rgb(17, 17, 17);
+  }
+  .container_its_price .col_blue {
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+  }
+  .container_its_price .row.without_top_border .col {
+    border-top: none;
+  }
+  /*2*/
+  .container_its_price_2 {
+    max-width: 320px;
+    width: 100%; /* You can set this to a specific value like pixels or percentage */
+    margin: -6px auto; /* Center the container horizontally */
+  }
+  .container_its_price_2 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 90px;
+    padding-top: 15px;
+    margin: 3px; /* Add margin for spacing between containers */
+    color: rgb(17, 17, 17);
+  }
+  .sign_a {
+    font-size: 12px;
+    margin-top: 0px; /* Adjust the margin-top as needed */
+    margin-left: 10px;
+  }
+  .money_a {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-top: -30px;
+  }
+  .sign {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .money {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-top: -30px;
+  }
+  .p3 {
+    font-size: 10px;
+    color: #979797;
+    margin-top: -5px;
+  }
+  .container_its_price_2 .blue_blok {
+    background-color: rgb(0, 146, 231);
+  }
+  .white {
+    color: #ffffff;
+  }
+  /*3*/
+  .container_its_price_3 {
+    font-family: "Source Sans 3", sans-serif;
+    max-width: 320px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .container_its_price_3 .col {
+    border: 1px solid #d3d3d3; /* Set the color and style of the line */
+    height: 250px;
+    padding: 5px;
+    margin: 3px; /* Add margin for spacing between containers */
+    color: rgb(112, 112, 112);
+    font-size: 12px;
+  }
+  .blue {
+    color: rgb(0, 146, 231);
+  }
+  .container_3 .col.text_price p.blue {
+    display: inline; /* or display: inline-block; */
+    color: rgb(0, 146, 231);
+  }
+  .container_its_price_3 .col button {
+    margin-top: 20px;
+    padding: 5px;
+    border-color: rgb(177, 177, 177);
+    border-radius: 3;
+    width: 60px;
+    height: 25px;
+    color: rgb(0, 146, 231);
+    font-size: 9px;
+  }
+  .container_its_price_3 .col .btn_b {
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 60px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 146, 231);
+    font-size: 9px;
+  }
+}
+/*stay and touch*/
+.rec_fon {
+  width: 100%;
+  height: 750px;
+  background-color: #e4e4e4;
+  margin-top: 70px;
+}
+
+.title_touch {
+  max-width: 1170px;
+  margin: 70px auto; /* Center the slider within its container */
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.title_p1 {
+  font-size: 16px;
+  color: rgb(0, 146, 231);
+  font-weight: bold;
+}
+
+.title_2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Additional CSS for column layout */
+.columns-wrapper {
+  max-width: 1170px; /* Set the maximum width for the columns */
+  margin: 0 auto; /* Center the columns on the page */
+}
+
+.line_t {
+  margin-top: 10px;
+}
+
+.content_touch {
+  text-align: center;
+}
+
+.columns-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 1 calc(33.33% - 20px);
+  margin: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.picture_touch {
+  margin-top: -10px;
+}
+
+.text_t {
+  margin-top: 25px;
+  color: #979797;
+  font-size: 16px;
+}
+
+.text_t_2 {
+  color: #979797;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 649px) {
+  /*stay and touch*/
+  .rec_fon {
+    width: 100%;
+    height: 850px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  /*stay and touch*/
+  .rec_fon {
+    width: 100%;
+    height: 950px;
+  }
+}
+/*black block*/
+.rectangle {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: -10px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(26, 26, 26);
+  color: #f1f1f1;
+}
+
+.rectangle_p1 {
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.rectangle_p1, .rectangle_p2 {
+  font-size: 32px;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.button_container_rec {
+  margin-left: 150px;
+  margin-top: -10px;
+}
+
+.button_1_rec {
+  background-color: rgb(0, 146, 231);
+  border: none;
+  height: 55px;
+  width: 180px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+}
+
+.button_2_rec {
+  height: 55px;
+  width: 180px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255); /* Колір тексту без прозорості */
+  border: 1px solid rgb(253, 253, 253); /* Ширина, стиль та колір бордеру */
+  background-color: rgba(0, 142, 214, 0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*line*/
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.full-width-line {
+  width: 100%;
+  border: 1px solid #f1f1f1; /* Set the color and style of the line */
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+  /*black block*/
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .rectangle {
+    width: 100%;
+    height: 150px;
+  }
+  .rectangle_p1, .rectangle_p2 {
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .rectangle_p1 {
+    font-weight: bold;
+    margin-left: -30px;
+  }
+  .button_container_rec {
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+  .button_1_rec,
+  .button_2_rec {
+    width: 140px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: baseline; /* Align buttons at the baseline */
+  }
+  .button_2_rec {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+  }
+  /* Adjust the margin-top value as needed */
+  #carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 70px; /* Adjust as needed */
+    display: inline-block;
+    width: 6px !important; /* Adjust width as needed */
+    height: 6px !important; /* Adjust height as needed */
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important; /* Adjusted to 20px */
+    cursor: pointer;
+  }
+  #carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 850px) {
+  /*black block*/
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .rectangle {
+    width: 100%;
+    height: 150px;
+  }
+  .rectangle_p1, .rectangle_p2 {
+    font-size: 20px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .rectangle_p1 {
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .button_container_rec {
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+  .button_1_rec,
+  .button_2_rec {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: baseline; /* Align buttons at the baseline */
+  }
+  .button_2_rec {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+  }
+  #carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 55px;
+    display: inline-block;
+    width: 6px !important;
+    height: 6px !important;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important;
+    cursor: pointer;
+  }
+  #carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+  }
+}
+@media screen and (min-width: 642px) and (max-width: 767px) {
+  /*black block*/
+  .rectangle {
+    width: 100%;
+    height: 120px;
+  }
+  .rectangle_p1, .rectangle_p2 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .rectangle_p1 {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .button_container_rec {
+    margin-left: 50px;
+    margin-top: -10px;
+  }
+  .button_1_rec,
+  .button_2_rec {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: baseline; /* Align buttons at the baseline */
+  }
+  .button_2_rec {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+  }
+  #carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 40px; /* Adjust as needed */
+    display: inline-block;
+    width: 6px !important; /* Adjust width as needed */
+    height: 6px !important; /* Adjust height as needed */
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important; /* Adjusted to 20px */
+    cursor: pointer;
+  }
+  #carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 641px) {
+  /*black block*/
+  .rectangle {
+    width: 100%;
+    height: 200px;
+  }
+  .rectangle_p1, .rectangle_p2 {
+    margin-top: -30px;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .rectangle_p1 {
+    margin-top: -30px;
+    font-weight: bold;
+    margin-left: -50px;
+  }
+  .button_container_rec {
+    margin-left: -290px;
+    margin-top: 80px;
+  }
+  .button_1_rec,
+  .button_2_rec {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: baseline; /* Align buttons at the baseline */
+  }
+  .button_2_rec {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+  }
+  #carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 45px; /* Adjust as needed */
+    display: inline-block;
+    width: 6px !important; /* Adjust width as needed */
+    height: 6px !important; /* Adjust height as needed */
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important; /* Adjusted to 20px */
+    cursor: pointer;
+  }
+  #carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+  }
+}
+@media only screen and (max-width: 480px) {
+  /*black block*/
+  .rectangle {
+    width: 100%;
+    height: 200px;
+  }
+  .rectangle_p1, .rectangle_p2 {
+    margin-top: -30px;
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  .rectangle_p1 {
+    margin-top: -30px;
+    font-weight: bold;
+    margin-left: -20px;
+  }
+  .button_container_rec {
+    margin-left: -270px;
+    margin-top: 80px;
+  }
+  .button_1_rec,
+  .button_2_rec {
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    vertical-align: baseline; /* Align buttons at the baseline */
+  }
+  .button_2_rec {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 142, 214, 0);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 640px;
+  z-index: -99999;
+  position: absolute;
+}
+
+.fon_a1 {
+  background-color: #1f1f1f;
+}
+
+.row {
+  margin-top: 35px;
+  position: relative; /* Ensure stacking context for child elements */
+  z-index: 1; /* Set a positive z-index to stack above the background image */
+}
+
+.logo {
+  margin-left: -32px;
+  margin-top: 5px;
+}
+
+.slogan {
+  margin-left: -25px;
+  margin-top: 5px;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+nav.menu ul li {
+  margin-right: 15px;
+  color: white;
+  display: inline-block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+}
+
+.menu_content {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  font-size: 14px;
+  list-style: none;
+}
+.menu ul {
+  grid-column: 8/span 6;
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 8px;
+  padding: 0;
+  color: azure;
+  display: none;
+}
+.menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.menu .header_burger_btn {
+  display: none;
+  position: relative;
+  width: 45px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(90, 90, 90);
+}
+.menu .header_burger_btn span {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  left: 10px;
+}
+.menu .header_burger_btn :nth-child(1) {
+  transform: translateY(-7px);
+}
+.menu .header_burger_btn :nth-child(3) {
+  transform: translateY(7px);
+}
+
+@media screen and (min-width: 670px) and (max-width: 850px) {
+  .bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 395px;
+    z-index: -99999;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 669px) {
+  .bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 311px;
+    z-index: -99999;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 340px;
+    z-index: -99999;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1205px) {
+  /*burger*/
+  .logo {
+    margin-left: 50px;
+  }
+  .slogan {
+    margin-left: -5px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  /*burger*/
+  .logo {
+    margin-left: 50px;
+  }
+  .slogan {
+    margin-left: -5px;
+  }
+}
+@media screen and (min-width: 1251px) and (max-width: 1550px) {
+  #carouselExampleIndicators .carousel-indicators li {
+    position: relative;
+    top: 90px;
+    display: inline-block;
+    width: 6px !important;
+    height: 6px !important;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px !important;
+    cursor: pointer;
+  }
+  #carouselExampleIndicators .carousel-indicators .active {
+    background-color: #fff !important; /* Change to your active color */
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1250px) {
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+  }
+  .header .menu .header_burger_btn {
+    display: block;
+  }
+  .menu ul {
+    color: azure;
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    top: -380px;
+  }
+  .menu li {
+    margin: 10px 0;
+  }
+  .apply {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: -9999;
+    position: absolute; /* Додаємо absolute position для .bg */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blocks {
+    flex-wrap: wrap;
+  }
+  .col {
+    width: 50%;
+    padding: 0 150px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .picturess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .details_block,
+  .blocks_right .details_block_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+    margin-right: 0;
+  }
+  .col img.img2 {
+    order: 2;
+    margin: auto;
+    text-align: center;
+    max-width: 50%;
+    border-radius: 10px; /* Закруглення кутів */
+  }
+  .text_blok,
+  .blocks_right .text_blok_right {
+    order: 1;
+    text-align: left;
+  }
+}/*# sourceMappingURL=styles.css.map */

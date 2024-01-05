@@ -1,0 +1,72 @@
+@mixin blue_title{
+    font-size: 16px;
+    color: rgb(0, 146, 231);
+    font-weight: bold;
+}
+@mixin title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*-Product overview block*/
+.overview_block{
+    max-width: 1170px;
+    margin: 60px auto;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.blocks{
+    display: flex;
+}
+.overview_p_1, .detalis_p_1{
+    @include blue_title;
+}
+.title, .detalis_title{
+    @include title;
+}
+.title_block{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.tekst_block, .detalis_p_2{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(121, 121, 121);
+}
+.col {
+    position: relative;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+.pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.prise_bloc {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.picture_prise img {
+    width: 100%; 
+}
+
+
+
+@media screen and (max-width: 480px) {
+.circle{
+    width: 70px;
+}
+.title_block{
+    font-size: 18px;
+}
+.tekst_block{
+    font-size: 16px;
+}
+}

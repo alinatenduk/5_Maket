@@ -1,0 +1,73 @@
+
+/*stay and touch*/
+.rec_fon{
+    width: 100%;
+    height: 750px;
+    background-color: #e4e4e4;
+    margin-top: 70px;
+}
+.title_touch{
+    max-width: 1170px;
+    margin: 70px auto; /* Center the slider within its container */
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.title_p1{
+    @include blue_title;
+}
+.title_2{
+    @include title;
+}
+/* Additional CSS for column layout */
+.columns-wrapper {
+    max-width: 1170px; /* Set the maximum width for the columns */
+    margin: 0 auto; /* Center the columns on the page */
+}
+.line_t{
+    margin-top: 10px;
+}
+.content_touch {
+text-align: center;
+}
+.columns-wrapper {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.col {
+flex: 0 1 calc(33.33% - 20px);
+margin: 0 10px;
+box-sizing: border-box;
+text-align: center;
+}
+.picture_touch{
+    margin-top: -10px;
+}
+.text_t{
+    margin-top: 25px;
+    color: #979797;
+    font-size: 16px;
+}
+.text_t_2{
+    color: #979797;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 649px) {
+    /*stay and touch*/
+    .rec_fon{
+        width: 100%;
+        height: 850px;
+    }
+}
+
+    
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    /*stay and touch*/
+    .rec_fon{
+        width: 100%;
+        height: 950px;
+    }
+}
