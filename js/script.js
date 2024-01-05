@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function showFeatures() {
-    alert("Ви переглядаєте можливості!");
+    alert("You are browsing the possibilities!");
 }
 
 function downloadNow() {
-    alert("Завантаження розпочалося!");
+    alert("Download has started!");
 }
 
 
